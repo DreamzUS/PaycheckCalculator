@@ -1,0 +1,10 @@
+PayRate = float(input('What is the employees pay rate? '))
+HoursWorked = float(input('How many hours did the employee work? '))
+NormalPay = PayRate * HoursWorked
+OvertimePay = (PayRate * 1.5) * HoursWorked
+
+if HoursWorked <= 40:
+    print('Your pay will be ' + str(NormalPay))
+else:
+    HoursWorked >= 41
+    print('Your pay at overtime payrate will be ' + str(OvertimePay))
